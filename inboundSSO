@@ -1,0 +1,506 @@
+{
+  "meta": {
+    "exportDate": "2026-02-20T08:02:17.697Z",
+    "exportTool": "frodo",
+    "exportToolVersion": "v3.3.4 [v22.21.0]",
+    "exportedBy": "amadmin",
+    "origin": "http://am.example.com:8081/am",
+    "originAmVersion": "8.0.1"
+  },
+  "trees": {
+    "inboundSSO": {
+      "circlesOfTrust": {},
+      "emailTemplates": {},
+      "innerNodes": {},
+      "nodes": {
+        "215abae2-f8cd-4ffa-a7d7-963a2277331e": {
+          "_id": "215abae2-f8cd-4ffa-a7d7-963a2277331e",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "4d75aaae-47fe-41c5-8967-284ddd76ffa6": {
+          "_id": "4d75aaae-47fe-41c5-8967-284ddd76ffa6",
+          "_outcomes": [
+            {
+              "displayName": "false",
+              "id": "false"
+            },
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "false",
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "5bf7a4b0-e8c9-4bfc-b15d-0c303e962869": {
+          "_id": "5bf7a4b0-e8c9-4bfc-b15d-0c303e962869",
+          "_outcomes": [
+            {
+              "displayName": "azure1",
+              "id": "azure1"
+            },
+            {
+              "displayName": "edwardjones",
+              "id": "edwardjones"
+            },
+            {
+              "displayName": "not allowed",
+              "id": "not allowed"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "azure1",
+            "edwardjones",
+            "not allowed"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "8b822c1d-3099-48fb-adc4-fecd2d139a39": {
+          "_id": "8b822c1d-3099-48fb-adc4-fecd2d139a39",
+          "_outcomes": [
+            {
+              "displayName": "Account exists",
+              "id": "Account exists"
+            },
+            {
+              "displayName": "No Account exists",
+              "id": "No Account exists"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "Account exists",
+            "No Account exists"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "a16954e0-9ed7-4d6e-97f1-7dd3376527a4": {
+          "_id": "a16954e0-9ed7-4d6e-97f1-7dd3376527a4",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "a972e45f-b294-490a-b8d0-1a358253d014": {
+          "_id": "a972e45f-b294-490a-b8d0-1a358253d014",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            },
+            {
+              "displayName": "false",
+              "id": "false"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true",
+            "false"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "ac2a5e97-d1ec-423a-b2f3-f3636f86f488": {
+          "_id": "ac2a5e97-d1ec-423a-b2f3-f3636f86f488",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "bb4487f4-eee5-4769-93ec-330a882401a8": {
+          "_id": "bb4487f4-eee5-4769-93ec-330a882401a8",
+          "_outcomes": [
+            {
+              "displayName": "Account exists",
+              "id": "Account exists"
+            },
+            {
+              "displayName": "No Account exists",
+              "id": "No Account exists"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "Account exists",
+            "No Account exists"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "d127e08e-9d62-45e9-a028-5d2b3ca142d6": {
+          "_id": "d127e08e-9d62-45e9-a028-5d2b3ca142d6",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            },
+            {
+              "displayName": "false",
+              "id": "false"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true",
+            "false"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "d59a9b90-df70-449c-bb6e-718ac959c55c": {
+          "_id": "d59a9b90-df70-449c-bb6e-718ac959c55c",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "d8952244-4e1a-4ca9-bb76-67f845f6bb2d": {
+          "_id": "d8952244-4e1a-4ca9-bb76-67f845f6bb2d",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "f9884714-3f2f-48d9-9501-e8eb263edeac": {
+          "_id": "f9884714-3f2f-48d9-9501-e8eb263edeac",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            },
+            {
+              "displayName": "false",
+              "id": "false"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true",
+            "false"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        }
+      },
+      "saml2Entities": {},
+      "scripts": {
+        "82ffd172-43af-462f-8c7f-d9183f0cf387": {
+          "_id": "82ffd172-43af-462f-8c7f-d9183f0cf387",
+          "context": "AUTHENTICATION_TREE_DECISION_NODE",
+          "createdBy": "id=amadmin,ou=user,ou=am-config",
+          "creationDate": 1762159499629,
+          "default": false,
+          "description": null,
+          "evaluatorVersion": "1.0",
+          "language": "JAVASCRIPT",
+          "lastModifiedBy": "id=amadmin,ou=user,ou=am-config",
+          "lastModifiedDate": 1762165283905,
+          "name": "test",
+          "script": "\"/*\\n  - Data made available by nodes that have already executed are available in the sharedState variable.\\n  - The script should set outcome to either \\\"true\\\" or \\\"false\\\".\\n */\\n\\noutcome = \\\"true\\\";\""
+        }
+      },
+      "socialIdentityProviders": {},
+      "themes": [],
+      "tree": {
+        "_id": "inboundSSO",
+        "enabled": true,
+        "entryNodeId": "ac2a5e97-d1ec-423a-b2f3-f3636f86f488",
+        "innerTreeOnly": false,
+        "mustRun": false,
+        "noSession": false,
+        "nodes": {
+          "215abae2-f8cd-4ffa-a7d7-963a2277331e": {
+            "connections": {},
+            "displayName": "RedirectURL Decision (no output)",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 2421,
+            "y": 93
+          },
+          "4d75aaae-47fe-41c5-8967-284ddd76ffa6": {
+            "connections": {
+              "false": "215abae2-f8cd-4ffa-a7d7-963a2277331e",
+              "true": "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+            },
+            "displayName": "Bu Mapping Decision",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 2181,
+            "y": 265
+          },
+          "5bf7a4b0-e8c9-4bfc-b15d-0c303e962869": {
+            "connections": {
+              "azure1": "bb4487f4-eee5-4769-93ec-330a882401a8",
+              "edwardjones": "8b822c1d-3099-48fb-adc4-fecd2d139a39",
+              "not allowed": "e301438c-0bd0-429c-ab0c-66126501069a"
+            },
+            "displayName": "Entity ID Decision",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 466,
+            "y": 30
+          },
+          "8b822c1d-3099-48fb-adc4-fecd2d139a39": {
+            "connections": {
+              "Account exists": "d8952244-4e1a-4ca9-bb76-67f845f6bb2d",
+              "No Account exists": "d8952244-4e1a-4ca9-bb76-67f845f6bb2d"
+            },
+            "displayName": "Sponsor Edward Jones Connection(OpenID Connect)",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 723,
+            "y": 147
+          },
+          "a16954e0-9ed7-4d6e-97f1-7dd3376527a4": {
+            "connections": {
+              "true": "d59a9b90-df70-449c-bb6e-718ac959c55c"
+            },
+            "displayName": "Handle client information",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1585,
+            "y": 89
+          },
+          "a972e45f-b294-490a-b8d0-1a358253d014": {
+            "connections": {
+              "false": "a16954e0-9ed7-4d6e-97f1-7dd3376527a4",
+              "true": "4d75aaae-47fe-41c5-8967-284ddd76ffa6"
+            },
+            "displayName": "Session Exists into Shared State",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1287,
+            "y": 74
+          },
+          "ac2a5e97-d1ec-423a-b2f3-f3636f86f488": {
+            "connections": {
+              "true": "5bf7a4b0-e8c9-4bfc-b15d-0c303e962869"
+            },
+            "displayName": "Client ID and Entity ID into Shared State",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 144,
+            "y": 28
+          },
+          "bb4487f4-eee5-4769-93ec-330a882401a8": {
+            "connections": {
+              "Account exists": "d8952244-4e1a-4ca9-bb76-67f845f6bb2d",
+              "No Account exists": "d8952244-4e1a-4ca9-bb76-67f845f6bb2d"
+            },
+            "displayName": "Sponsor \"Azure1\" connection (openID Connect)",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 725,
+            "y": 20
+          },
+          "d127e08e-9d62-45e9-a028-5d2b3ca142d6": {
+            "connections": {
+              "false": "f9884714-3f2f-48d9-9501-e8eb263edeac",
+              "true": "4d75aaae-47fe-41c5-8967-284ddd76ffa6"
+            },
+            "displayName": "Bu Mapping searching",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 2007,
+            "y": 101
+          },
+          "d59a9b90-df70-449c-bb6e-718ac959c55c": {
+            "connections": {
+              "true": "d127e08e-9d62-45e9-a028-5d2b3ca142d6"
+            },
+            "displayName": "Bu Mapping token",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1820,
+            "y": 91
+          },
+          "d8952244-4e1a-4ca9-bb76-67f845f6bb2d": {
+            "connections": {
+              "true": "a972e45f-b294-490a-b8d0-1a358253d014"
+            },
+            "displayName": "Handles Claims",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1133,
+            "y": 90
+          },
+          "f9884714-3f2f-48d9-9501-e8eb263edeac": {
+            "connections": {
+              "false": "215abae2-f8cd-4ffa-a7d7-963a2277331e",
+              "true": "d59a9b90-df70-449c-bb6e-718ac959c55c"
+            },
+            "displayName": "Failure Counter",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 2239,
+            "y": 92
+          }
+        },
+        "staticNodes": {
+          "70e691a5-1e33-4ac3-a356-e7b6d60d92e0": {
+            "x": 2410,
+            "y": 163
+          },
+          "e301438c-0bd0-429c-ab0c-66126501069a": {
+            "x": 725,
+            "y": 286
+          },
+          "startNode": {
+            "x": 50,
+            "y": 25
+          }
+        },
+        "uiConfig": {}
+      },
+      "variable": {}
+    }
+  }
+}
