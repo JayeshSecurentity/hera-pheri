@@ -1,0 +1,1160 @@
+{
+  "meta": {
+    "exportDate": "2026-02-20T07:09:34.388Z",
+    "exportTool": "frodo",
+    "exportToolVersion": "v3.3.4 [v22.21.0]",
+    "exportedBy": "amadmin",
+    "origin": "http://am.example.com:8081/am",
+    "originAmVersion": "8.0.1"
+  },
+  "trees": {
+    "saml_ondemand_stepup": {
+      "circlesOfTrust": {},
+      "emailTemplates": {},
+      "innerNodes": {
+        "4850b058-9709-4fb8-998c-685aaacd1ec2": {
+          "_id": "4850b058-9709-4fb8-998c-685aaacd1ec2",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "d4668ace-b110-42f9-a812-6afdaf024b8e": {
+          "_id": "d4668ace-b110-42f9-a812-6afdaf024b8e",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        }
+      },
+      "nodes": {
+        "11edfe6e-490b-40bd-838f-d7070a38c00b": {
+          "_id": "11edfe6e-490b-40bd-838f-d7070a38c00b",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "24fc3ef3-f37e-424b-bcab-a04fc0bf72e1": {
+          "_id": "24fc3ef3-f37e-424b-bcab-a04fc0bf72e1",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "34158f75-f61a-4fe1-bc62-1bce4386d606": {
+          "_id": "34158f75-f61a-4fe1-bc62-1bce4386d606",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "3a0f5208-27e4-4262-aac6-856e45166cde": {
+          "_id": "3a0f5208-27e4-4262-aac6-856e45166cde",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "3f580027-582c-46ed-bd76-e0c9aabff4e7": {
+          "_id": "3f580027-582c-46ed-bd76-e0c9aabff4e7",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "451295ab-9831-49fe-89c3-7a0817d7dd4c": {
+          "_id": "451295ab-9831-49fe-89c3-7a0817d7dd4c",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "4aeae6cf-1d01-4d03-90bf-a6fcd25fa313": {
+          "_id": "4aeae6cf-1d01-4d03-90bf-a6fcd25fa313",
+          "_outcomes": [
+            {
+              "displayName": "Conditional",
+              "id": "Conditional"
+            },
+            {
+              "displayName": "mandatory",
+              "id": "mandatory"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "Conditional",
+            "mandatory"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "4c4197ff-ed71-4b15-88e3-19e63bcf09aa": {
+          "_id": "4c4197ff-ed71-4b15-88e3-19e63bcf09aa",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "503d3969-7ee6-4cef-9fa3-6831fcf19629": {
+          "_id": "503d3969-7ee6-4cef-9fa3-6831fcf19629",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "5637288a-94d6-449e-82bf-a5104187d6dd": {
+          "_id": "5637288a-94d6-449e-82bf-a5104187d6dd",
+          "_outcomes": [
+            {
+              "displayName": "ondemand",
+              "id": "ondemand"
+            },
+            {
+              "displayName": "abandon",
+              "id": "abandon"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "ondemand",
+            "abandon"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "79260805-6b1d-4b51-a5d8-08a9f32e9485": {
+          "_id": "79260805-6b1d-4b51-a5d8-08a9f32e9485",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "829cf1da-d209-4aa1-bb39-14edaff2fc83": {
+          "_id": "829cf1da-d209-4aa1-bb39-14edaff2fc83",
+          "_outcomes": [
+            {
+              "displayName": "True",
+              "id": "true"
+            },
+            {
+              "displayName": "False",
+              "id": "false"
+            }
+          ],
+          "_type": {
+            "_id": "MessageNode",
+            "collection": true,
+            "name": "Message Node"
+          },
+          "message": {
+            "en": "MFA OTP?"
+          },
+          "messageNo": {},
+          "messageYes": {}
+        },
+        "9a462dd7-ee16-4f86-a171-a4cb23194ca6": {
+          "_id": "9a462dd7-ee16-4f86-a171-a4cb23194ca6",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "9a8e0701-b1f6-4b79-9b41-9a2f04c59169": {
+          "_id": "9a8e0701-b1f6-4b79-9b41-9a2f04c59169",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "9dc6131a-2d84-485e-a09b-9d966caf7893": {
+          "_id": "9dc6131a-2d84-485e-a09b-9d966caf7893",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "a15ee579-f686-43b4-a859-c043e9e13a84": {
+          "_id": "a15ee579-f686-43b4-a859-c043e9e13a84",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "a1c92a49-6684-4fb2-83ae-0f5b7c4dfd09": {
+          "_id": "a1c92a49-6684-4fb2-83ae-0f5b7c4dfd09",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "b02abfaf-de1d-4d7b-aac5-935cb96132a3": {
+          "_id": "b02abfaf-de1d-4d7b-aac5-935cb96132a3",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            },
+            {
+              "displayName": "false",
+              "id": "false"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true",
+            "false"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "b60b74be-09fa-4fa2-8dba-68db40b653b8": {
+          "_id": "b60b74be-09fa-4fa2-8dba-68db40b653b8",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "bc199db9-c3c8-447d-8b37-f7e2bf56bf84": {
+          "_id": "bc199db9-c3c8-447d-8b37-f7e2bf56bf84",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "c63d91bb-76e8-402d-ad48-853b9943c73c": {
+          "_id": "c63d91bb-76e8-402d-ad48-853b9943c73c",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "cae28e9f-f123-4972-aa62-20e3cdcf6811": {
+          "_id": "cae28e9f-f123-4972-aa62-20e3cdcf6811",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "d556aee0-a20c-4500-83e3-97be77ae523e": {
+          "_id": "d556aee0-a20c-4500-83e3-97be77ae523e",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            },
+            {
+              "displayName": "false",
+              "id": "false"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true",
+            "false"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "d571916d-d2fb-4e0f-916c-c68157242684": {
+          "_id": "d571916d-d2fb-4e0f-916c-c68157242684",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "PageNode",
+            "collection": true,
+            "name": "Page Node"
+          },
+          "nodes": [
+            {
+              "_id": "d4668ace-b110-42f9-a812-6afdaf024b8e",
+              "displayName": "terminateSessionResponse",
+              "nodeType": "ScriptedDecisionNode"
+            },
+            {
+              "_id": "4850b058-9709-4fb8-998c-685aaacd1ec2",
+              "displayName": "display terminateSessionResponse",
+              "nodeType": "ScriptedDecisionNode"
+            }
+          ],
+          "pageDescription": {},
+          "pageHeader": {}
+        },
+        "d6b9179c-00fd-4d61-82dc-f6036c50628e": {
+          "_id": "d6b9179c-00fd-4d61-82dc-f6036c50628e",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "df6709d1-39b1-4b64-b65c-427a8153ee76": {
+          "_id": "df6709d1-39b1-4b64-b65c-427a8153ee76",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "e2120c9d-b0bf-480d-81e0-3297b1929536": {
+          "_id": "e2120c9d-b0bf-480d-81e0-3297b1929536",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "e5ead8b5-c28d-494a-b7cc-67f24ebddbdf": {
+          "_id": "e5ead8b5-c28d-494a-b7cc-67f24ebddbdf",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "f5d15518-07b4-4f5d-89b7-c7313f2f626d": {
+          "_id": "f5d15518-07b4-4f5d-89b7-c7313f2f626d",
+          "_outcomes": [
+            {
+              "displayName": "True",
+              "id": "true"
+            },
+            {
+              "displayName": "False",
+              "id": "false"
+            }
+          ],
+          "_type": {
+            "_id": "MessageNode",
+            "collection": true,
+            "name": "Message Node"
+          },
+          "message": {
+            "en": "Do Session Exists"
+          },
+          "messageNo": {},
+          "messageYes": {}
+        },
+        "f7bcf0ce-9578-4f98-98ac-17147de1bff2": {
+          "_id": "f7bcf0ce-9578-4f98-98ac-17147de1bff2",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "fde01442-6048-4615-a6d6-d7b058923203": {
+          "_id": "fde01442-6048-4615-a6d6-d7b058923203",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        }
+      },
+      "saml2Entities": {},
+      "scripts": {
+        "82ffd172-43af-462f-8c7f-d9183f0cf387": {
+          "_id": "82ffd172-43af-462f-8c7f-d9183f0cf387",
+          "context": "AUTHENTICATION_TREE_DECISION_NODE",
+          "createdBy": "id=amadmin,ou=user,ou=am-config",
+          "creationDate": 1762159499629,
+          "default": false,
+          "description": null,
+          "evaluatorVersion": "1.0",
+          "language": "JAVASCRIPT",
+          "lastModifiedBy": "id=amadmin,ou=user,ou=am-config",
+          "lastModifiedDate": 1762165283905,
+          "name": "test",
+          "script": "\"/*\\n  - Data made available by nodes that have already executed are available in the sharedState variable.\\n  - The script should set outcome to either \\\"true\\\" or \\\"false\\\".\\n */\\n\\noutcome = \\\"true\\\";\""
+        }
+      },
+      "socialIdentityProviders": {},
+      "themes": [],
+      "tree": {
+        "_id": "saml_ondemand_stepup",
+        "enabled": true,
+        "entryNodeId": "9dc6131a-2d84-485e-a09b-9d966caf7893",
+        "innerTreeOnly": false,
+        "mustRun": false,
+        "noSession": false,
+        "nodes": {
+          "11edfe6e-490b-40bd-838f-d7070a38c00b": {
+            "connections": {
+              "true": "f5d15518-07b4-4f5d-89b7-c7313f2f626d"
+            },
+            "displayName": "Identify application",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 518.5833282470703,
+            "y": 109.375
+          },
+          "24fc3ef3-f37e-424b-bcab-a04fc0bf72e1": {
+            "connections": {
+              "true": "fde01442-6048-4615-a6d6-d7b058923203"
+            },
+            "displayName": "Get Username",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 991.4166564941406,
+            "y": 109.375
+          },
+          "34158f75-f61a-4fe1-bc62-1bce4386d606": {
+            "connections": {
+              "true": "e5ead8b5-c28d-494a-b7cc-67f24ebddbdf"
+            },
+            "displayName": "set abandon true",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1678.383316040039,
+            "y": 143.125
+          },
+          "3a0f5208-27e4-4262-aac6-856e45166cde": {
+            "connections": {
+              "true": "a1c92a49-6684-4fb2-83ae-0f5b7c4dfd09"
+            },
+            "displayName": "Store Emails into Shared State",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 2288.266647338867,
+            "y": 109.375
+          },
+          "3f580027-582c-46ed-bd76-e0c9aabff4e7": {
+            "connections": {
+              "true": "24fc3ef3-f37e-424b-bcab-a04fc0bf72e1"
+            },
+            "displayName": "set true",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 866.7499847412109,
+            "y": 75.625
+          },
+          "451295ab-9831-49fe-89c3-7a0817d7dd4c": {
+            "connections": {
+              "true": "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+            },
+            "displayName": "myRedirectAuthNode",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 4412.849990844727,
+            "y": 193.75
+          },
+          "4aeae6cf-1d01-4d03-90bf-a6fcd25fa313": {
+            "connections": {
+              "Conditional": "d556aee0-a20c-4500-83e3-97be77ae523e",
+              "mandatory": "df6709d1-39b1-4b64-b65c-427a8153ee76"
+            },
+            "displayName": "Validate Tree",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 3147.3333129882812,
+            "y": 86.5999984741211
+          },
+          "4c4197ff-ed71-4b15-88e3-19e63bcf09aa": {
+            "connections": {
+              "true": "b60b74be-09fa-4fa2-8dba-68db40b653b8"
+            },
+            "displayName": "mask attribute",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 2699.499984741211,
+            "y": 109.375
+          },
+          "503d3969-7ee6-4cef-9fa3-6831fcf19629": {
+            "connections": {
+              "true": "9a8e0701-b1f6-4b79-9b41-9a2f04c59169"
+            },
+            "displayName": "create frontendInfo object",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1861.4333190917969,
+            "y": 75.625
+          },
+          "5637288a-94d6-449e-82bf-a5104187d6dd": {
+            "connections": {
+              "abandon": "34158f75-f61a-4fe1-bc62-1bce4386d606",
+              "ondemand": "c63d91bb-76e8-402d-ad48-853b9943c73c"
+            },
+            "displayName": "Flow choice",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1531.9499816894531,
+            "y": 86.5999984741211
+          },
+          "79260805-6b1d-4b51-a5d8-08a9f32e9485": {
+            "connections": {
+              "true": "451295ab-9831-49fe-89c3-7a0817d7dd4c"
+            },
+            "displayName": "Set AuthType",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 4232.166656494141,
+            "y": 165.9000015258789
+          },
+          "829cf1da-d209-4aa1-bb39-14edaff2fc83": {
+            "connections": {
+              "false": "d6b9179c-00fd-4d61-82dc-f6036c50628e",
+              "true": "e2120c9d-b0bf-480d-81e0-3297b1929536"
+            },
+            "displayName": "MFA OTP",
+            "nodeType": "MessageNode",
+            "x": 3928.3999786376953,
+            "y": 86.5999984741211
+          },
+          "9a462dd7-ee16-4f86-a171-a4cb23194ca6": {
+            "connections": {
+              "true": "451295ab-9831-49fe-89c3-7a0817d7dd4c"
+            },
+            "displayName": "set false",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 866.7499847412109,
+            "y": 143.125
+          },
+          "9a8e0701-b1f6-4b79-9b41-9a2f04c59169": {
+            "connections": {
+              "true": "3a0f5208-27e4-4262-aac6-856e45166cde"
+            },
+            "displayName": "Get Profile Property",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 2092.766647338867,
+            "y": 109.375
+          },
+          "9dc6131a-2d84-485e-a09b-9d966caf7893": {
+            "connections": {
+              "true": "bc199db9-c3c8-447d-8b37-f7e2bf56bf84"
+            },
+            "displayName": "capture brand",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 152.5,
+            "y": 109.375
+          },
+          "a15ee579-f686-43b4-a859-c043e9e13a84": {
+            "connections": {
+              "true": "df6709d1-39b1-4b64-b65c-427a8153ee76"
+            },
+            "displayName": "MFA Triggered Before False",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 3514.133316040039,
+            "y": 75.625
+          },
+          "a1c92a49-6684-4fb2-83ae-0f5b7c4dfd09": {
+            "connections": {
+              "true": "4c4197ff-ed71-4b15-88e3-19e63bcf09aa"
+            },
+            "displayName": "channel List",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 2552.266647338867,
+            "y": 109.375
+          },
+          "b02abfaf-de1d-4d7b-aac5-935cb96132a3": {
+            "connections": {
+              "false": "d571916d-d2fb-4e0f-916c-c68157242684",
+              "true": "d571916d-d2fb-4e0f-916c-c68157242684"
+            },
+            "displayName": "terminateSession",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 4232.166656494141,
+            "y": 52.849998474121094
+          },
+          "b60b74be-09fa-4fa2-8dba-68db40b653b8": {
+            "connections": {
+              "true": "4aeae6cf-1d01-4d03-90bf-a6fcd25fa313"
+            },
+            "displayName": "set mask medium into frontendInfo",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 2859.9666442871094,
+            "y": 109.375
+          },
+          "bc199db9-c3c8-447d-8b37-f7e2bf56bf84": {
+            "connections": {
+              "true": "11edfe6e-490b-40bd-838f-d7070a38c00b"
+            },
+            "displayName": "capture stepup option",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 311.3999938964844,
+            "y": 109.375
+          },
+          "c63d91bb-76e8-402d-ad48-853b9943c73c": {
+            "connections": {
+              "true": "503d3969-7ee6-4cef-9fa3-6831fcf19629"
+            },
+            "displayName": "set abandon false",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1678.383316040039,
+            "y": 75.625
+          },
+          "cae28e9f-f123-4972-aa62-20e3cdcf6811": {
+            "connections": {
+              "true": "451295ab-9831-49fe-89c3-7a0817d7dd4c"
+            },
+            "displayName": "MFA Triggered Before True",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 3514.133316040039,
+            "y": 143.125
+          },
+          "d556aee0-a20c-4500-83e3-97be77ae523e": {
+            "connections": {
+              "false": "a15ee579-f686-43b4-a859-c043e9e13a84",
+              "true": "cae28e9f-f123-4972-aa62-20e3cdcf6811"
+            },
+            "displayName": "MFA Triggered Before",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 3303.116653442383,
+            "y": 86.5999984741211
+          },
+          "d571916d-d2fb-4e0f-916c-c68157242684": {
+            "connections": {
+              "true": "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+            },
+            "displayName": "callback terminateSessionInfo To Frontend",
+            "nodeType": "PageNode",
+            "x": 4412.849990844727,
+            "y": 25
+          },
+          "d6b9179c-00fd-4d61-82dc-f6036c50628e": {
+            "connections": {
+              "true": "b02abfaf-de1d-4d7b-aac5-935cb96132a3"
+            },
+            "displayName": "mfaResult false",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 4063.133316040039,
+            "y": 75.625
+          },
+          "df6709d1-39b1-4b64-b65c-427a8153ee76": {
+            "connections": {
+              "true": "829cf1da-d209-4aa1-bb39-14edaff2fc83"
+            },
+            "displayName": "set Tree Name",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 3763.2833099365234,
+            "y": 109.375
+          },
+          "e2120c9d-b0bf-480d-81e0-3297b1929536": {
+            "connections": {
+              "true": "79260805-6b1d-4b51-a5d8-08a9f32e9485"
+            },
+            "displayName": "mfaResult True",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 4063.133316040039,
+            "y": 143.125
+          },
+          "e5ead8b5-c28d-494a-b7cc-67f24ebddbdf": {
+            "connections": {
+              "true": "451295ab-9831-49fe-89c3-7a0817d7dd4c"
+            },
+            "displayName": "Set AuthType",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1861.4333190917969,
+            "y": 143.125
+          },
+          "f5d15518-07b4-4f5d-89b7-c7313f2f626d": {
+            "connections": {
+              "false": "9a462dd7-ee16-4f86-a171-a4cb23194ca6",
+              "true": "3f580027-582c-46ed-bd76-e0c9aabff4e7"
+            },
+            "displayName": "SessionExists",
+            "nodeType": "MessageNode",
+            "x": 707.0999908447266,
+            "y": 86.5999984741211
+          },
+          "f7bcf0ce-9578-4f98-98ac-17147de1bff2": {
+            "connections": {
+              "true": "5637288a-94d6-449e-82bf-a5104187d6dd"
+            },
+            "displayName": "capture goto parameter",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1313.883316040039,
+            "y": 109.375
+          },
+          "fde01442-6048-4615-a6d6-d7b058923203": {
+            "connections": {
+              "true": "f7bcf0ce-9578-4f98-98ac-17147de1bff2"
+            },
+            "displayName": "Get AuthType",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1154.9833221435547,
+            "y": 109.375
+          }
+        },
+        "staticNodes": {
+          "70e691a5-1e33-4ac3-a356-e7b6d60d92e0": {
+            "x": 4751.550003051758,
+            "y": 109.375
+          },
+          "startNode": {
+            "x": 50,
+            "y": 109.375
+          }
+        },
+        "uiConfig": {}
+      },
+      "variable": {}
+    }
+  }
+}
