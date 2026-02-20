@@ -1,0 +1,626 @@
+{
+  "meta": {
+    "exportDate": "2026-02-20T06:30:31.320Z",
+    "exportTool": "frodo",
+    "exportToolVersion": "v3.3.4 [v22.21.0]",
+    "exportedBy": "amadmin",
+    "origin": "http://am.example.com:8081/am",
+    "originAmVersion": "8.0.1"
+  },
+  "trees": {
+    "ondemand_reauth": {
+      "circlesOfTrust": {},
+      "emailTemplates": {},
+      "innerNodes": {},
+      "nodes": {
+        "00d08a34-b25b-45fc-a79e-4d6b9afc5dfc": {
+          "_id": "00d08a34-b25b-45fc-a79e-4d6b9afc5dfc",
+          "_outcomes": [
+            {
+              "displayName": "True",
+              "id": "true"
+            },
+            {
+              "displayName": "False",
+              "id": "false"
+            }
+          ],
+          "_type": {
+            "_id": "MessageNode",
+            "collection": true,
+            "name": "Message Node"
+          },
+          "message": {},
+          "messageNo": {},
+          "messageYes": {}
+        },
+        "0a694e4d-ef27-46e4-9b40-7aa19be6b893": {
+          "_id": "0a694e4d-ef27-46e4-9b40-7aa19be6b893",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "189e743c-7df4-48c2-b534-dc0309475716": {
+          "_id": "189e743c-7df4-48c2-b534-dc0309475716",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "27e08954-7901-4b0f-b556-4839de899af0": {
+          "_id": "27e08954-7901-4b0f-b556-4839de899af0",
+          "_outcomes": [
+            {
+              "displayName": "True",
+              "id": "True"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "True"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "2cd2402a-7147-4e38-997d-af03c001d733": {
+          "_id": "2cd2402a-7147-4e38-997d-af03c001d733",
+          "_outcomes": [
+            {
+              "displayName": "True",
+              "id": "true"
+            },
+            {
+              "displayName": "False",
+              "id": "false"
+            }
+          ],
+          "_type": {
+            "_id": "DataStoreDecisionNode",
+            "collection": true,
+            "name": "Data Store Decision"
+          }
+        },
+        "2eb69d9b-38e7-4a88-b402-09d009924bae": {
+          "_id": "2eb69d9b-38e7-4a88-b402-09d009924bae",
+          "_outcomes": [
+            {
+              "displayName": "True",
+              "id": "true"
+            },
+            {
+              "displayName": "False",
+              "id": "false"
+            }
+          ],
+          "_type": {
+            "_id": "MessageNode",
+            "collection": true,
+            "name": "Message Node"
+          },
+          "message": {
+            "en": "Your Account is Locked due to wrong attempts"
+          },
+          "messageNo": {},
+          "messageYes": {}
+        },
+        "372555de-adfc-41a5-98c7-c9d07b044b3e": {
+          "_id": "372555de-adfc-41a5-98c7-c9d07b044b3e",
+          "_outcomes": [
+            {
+              "displayName": "True",
+              "id": "true"
+            },
+            {
+              "displayName": "False",
+              "id": "false"
+            }
+          ],
+          "_type": {
+            "_id": "MessageNode",
+            "collection": true,
+            "name": "Message Node"
+          },
+          "message": {
+            "en": "Your account is Locked due to Wrong attempts"
+          },
+          "messageNo": {},
+          "messageYes": {}
+        },
+        "42eaeea2-bc2c-4195-80cc-994b25251b86": {
+          "_id": "42eaeea2-bc2c-4195-80cc-994b25251b86",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "61cb67a1-1f55-4b4c-be55-ee2f3485a63a": {
+          "_id": "61cb67a1-1f55-4b4c-be55-ee2f3485a63a",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "6553c90f-45c0-4266-9ace-5e4bd2675236": {
+          "_id": "6553c90f-45c0-4266-9ace-5e4bd2675236",
+          "_outcomes": [
+            {
+              "displayName": "Locked",
+              "id": "Locked"
+            },
+            {
+              "displayName": "Unlocked",
+              "id": "Unlocked"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "Locked",
+            "Unlocked"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "73c88ef8-904a-44f2-b96a-9394a6229976": {
+          "_id": "73c88ef8-904a-44f2-b96a-9394a6229976",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "879c2d49-7764-4ea1-8c30-95d30d59536a": {
+          "_id": "879c2d49-7764-4ea1-8c30-95d30d59536a",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "8aeac818-be77-440a-ba19-889720eb2c3c": {
+          "_id": "8aeac818-be77-440a-ba19-889720eb2c3c",
+          "_outcomes": [
+            {
+              "displayName": "Outcome",
+              "id": "outcome"
+            }
+          ],
+          "_type": {
+            "_id": "PasswordCollectorNode",
+            "collection": true,
+            "name": "Password Collector"
+          }
+        },
+        "b12a153f-d9eb-4a5a-9afe-230074f6728c": {
+          "_id": "b12a153f-d9eb-4a5a-9afe-230074f6728c",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "d1837071-a826-4433-92ce-f223d1d4dbd0": {
+          "_id": "d1837071-a826-4433-92ce-f223d1d4dbd0",
+          "_outcomes": [
+            {
+              "displayName": "Locked",
+              "id": "Locked"
+            },
+            {
+              "displayName": "Unlocked",
+              "id": "Unlocked"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "Locked",
+            "Unlocked"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "e08703da-6bd8-4924-a89a-399f44cd62dd": {
+          "_id": "e08703da-6bd8-4924-a89a-399f44cd62dd",
+          "_outcomes": [
+            {
+              "displayName": "Locked",
+              "id": "Locked"
+            },
+            {
+              "displayName": "Unlocked",
+              "id": "Unlocked"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "Locked",
+            "Unlocked"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        },
+        "f5e4ba5e-081a-4238-abd7-db394f23472c": {
+          "_id": "f5e4ba5e-081a-4238-abd7-db394f23472c",
+          "_outcomes": [
+            {
+              "displayName": "true",
+              "id": "true"
+            }
+          ],
+          "_type": {
+            "_id": "ScriptedDecisionNode",
+            "collection": true,
+            "name": "Scripted Decision"
+          },
+          "inputs": [
+            "*"
+          ],
+          "outcomes": [
+            "true"
+          ],
+          "outputs": [
+            "*"
+          ],
+          "script": "82ffd172-43af-462f-8c7f-d9183f0cf387"
+        }
+      },
+      "saml2Entities": {},
+      "scripts": {
+        "82ffd172-43af-462f-8c7f-d9183f0cf387": {
+          "_id": "82ffd172-43af-462f-8c7f-d9183f0cf387",
+          "context": "AUTHENTICATION_TREE_DECISION_NODE",
+          "createdBy": "id=amadmin,ou=user,ou=am-config",
+          "creationDate": 1762159499629,
+          "default": false,
+          "description": null,
+          "evaluatorVersion": "1.0",
+          "language": "JAVASCRIPT",
+          "lastModifiedBy": "id=amadmin,ou=user,ou=am-config",
+          "lastModifiedDate": 1762165283905,
+          "name": "test",
+          "script": "\"/*\\n  - Data made available by nodes that have already executed are available in the sharedState variable.\\n  - The script should set outcome to either \\\"true\\\" or \\\"false\\\".\\n */\\n\\noutcome = \\\"true\\\";\""
+        }
+      },
+      "socialIdentityProviders": {},
+      "themes": [],
+      "tree": {
+        "_id": "ondemand_reauth",
+        "enabled": true,
+        "entryNodeId": "73c88ef8-904a-44f2-b96a-9394a6229976",
+        "innerTreeOnly": false,
+        "mustRun": false,
+        "noSession": false,
+        "nodes": {
+          "00d08a34-b25b-45fc-a79e-4d6b9afc5dfc": {
+            "connections": {
+              "false": "e301438c-0bd0-429c-ab0c-66126501069a",
+              "true": "27e08954-7901-4b0f-b556-4839de899af0"
+            },
+            "displayName": "SessionExists",
+            "nodeType": "MessageNode",
+            "x": 525,
+            "y": 27
+          },
+          "0a694e4d-ef27-46e4-9b40-7aa19be6b893": {
+            "connections": {
+              "true": "00d08a34-b25b-45fc-a79e-4d6b9afc5dfc"
+            },
+            "displayName": "Identify application",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 326,
+            "y": 24
+          },
+          "189e743c-7df4-48c2-b534-dc0309475716": {
+            "connections": {
+              "true": "372555de-adfc-41a5-98c7-c9d07b044b3e"
+            },
+            "displayName": "Terminate Sessions",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 2917,
+            "y": 152
+          },
+          "27e08954-7901-4b0f-b556-4839de899af0": {
+            "connections": {
+              "True": "f5e4ba5e-081a-4238-abd7-db394f23472c"
+            },
+            "displayName": "Set Session Exists",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 699,
+            "y": 30
+          },
+          "2cd2402a-7147-4e38-997d-af03c001d733": {
+            "connections": {
+              "false": "6553c90f-45c0-4266-9ace-5e4bd2675236",
+              "true": "d1837071-a826-4433-92ce-f223d1d4dbd0"
+            },
+            "displayName": "Data Store Decision",
+            "nodeType": "DataStoreDecisionNode",
+            "x": 1271,
+            "y": 47
+          },
+          "2eb69d9b-38e7-4a88-b402-09d009924bae": {
+            "connections": {
+              "false": "e301438c-0bd0-429c-ab0c-66126501069a",
+              "true": "e301438c-0bd0-429c-ab0c-66126501069a"
+            },
+            "displayName": "Account Lockout info Message ",
+            "nodeType": "MessageNode",
+            "x": 1830,
+            "y": 152
+          },
+          "372555de-adfc-41a5-98c7-c9d07b044b3e": {
+            "connections": {
+              "false": "e301438c-0bd0-429c-ab0c-66126501069a",
+              "true": "e301438c-0bd0-429c-ab0c-66126501069a"
+            },
+            "displayName": "Account Lockout info Message ",
+            "nodeType": "MessageNode",
+            "x": 3081,
+            "y": 137
+          },
+          "42eaeea2-bc2c-4195-80cc-994b25251b86": {
+            "connections": {
+              "true": "61cb67a1-1f55-4b4c-be55-ee2f3485a63a"
+            },
+            "displayName": "Get Profile Property",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 2461,
+            "y": 138
+          },
+          "61cb67a1-1f55-4b4c-be55-ee2f3485a63a": {
+            "connections": {
+              "true": "189e743c-7df4-48c2-b534-dc0309475716"
+            },
+            "displayName": "Account Locked Email Notification",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 2649,
+            "y": 136
+          },
+          "6553c90f-45c0-4266-9ace-5e4bd2675236": {
+            "connections": {
+              "Locked": "2eb69d9b-38e7-4a88-b402-09d009924bae",
+              "Unlocked": "879c2d49-7764-4ea1-8c30-95d30d59536a"
+            },
+            "displayName": "Temporary Account Lockout Decision",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1495,
+            "y": 30
+          },
+          "73c88ef8-904a-44f2-b96a-9394a6229976": {
+            "connections": {
+              "true": "0a694e4d-ef27-46e4-9b40-7aa19be6b893"
+            },
+            "displayName": "capture brand",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 174,
+            "y": 24
+          },
+          "879c2d49-7764-4ea1-8c30-95d30d59536a": {
+            "connections": {
+              "true": "e08703da-6bd8-4924-a89a-399f44cd62dd"
+            },
+            "displayName": "Temporary Account Lockout Incrementer",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1814,
+            "y": 53
+          },
+          "8aeac818-be77-440a-ba19-889720eb2c3c": {
+            "connections": {
+              "outcome": "2cd2402a-7147-4e38-997d-af03c001d733"
+            },
+            "displayName": "Password Collector",
+            "nodeType": "PasswordCollectorNode",
+            "x": 1067,
+            "y": 43
+          },
+          "b12a153f-d9eb-4a5a-9afe-230074f6728c": {
+            "connections": {
+              "true": "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+            },
+            "displayName": "myRedirectAuthNode",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1833,
+            "y": 291
+          },
+          "d1837071-a826-4433-92ce-f223d1d4dbd0": {
+            "connections": {
+              "Locked": "2eb69d9b-38e7-4a88-b402-09d009924bae",
+              "Unlocked": "b12a153f-d9eb-4a5a-9afe-230074f6728c"
+            },
+            "displayName": "Temporary Account Lockout Decision",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 1513,
+            "y": 186
+          },
+          "e08703da-6bd8-4924-a89a-399f44cd62dd": {
+            "connections": {
+              "Locked": "42eaeea2-bc2c-4195-80cc-994b25251b86",
+              "Unlocked": "e301438c-0bd0-429c-ab0c-66126501069a"
+            },
+            "displayName": "Temporary Account Lockout Decision",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 2147,
+            "y": 91
+          },
+          "f5e4ba5e-081a-4238-abd7-db394f23472c": {
+            "connections": {
+              "true": "8aeac818-be77-440a-ba19-889720eb2c3c"
+            },
+            "displayName": "Get Username",
+            "nodeType": "ScriptedDecisionNode",
+            "x": 897,
+            "y": 26
+          }
+        },
+        "staticNodes": {
+          "70e691a5-1e33-4ac3-a356-e7b6d60d92e0": {
+            "x": 2099,
+            "y": 298
+          },
+          "e301438c-0bd0-429c-ab0c-66126501069a": {
+            "x": 3369,
+            "y": 166
+          },
+          "startNode": {
+            "x": 50,
+            "y": 25
+          }
+        },
+        "uiConfig": {}
+      },
+      "variable": {}
+    }
+  }
+}
